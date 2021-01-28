@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fsmall.iml" filepath="$PROJECT_DIR$/fsmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-admin/module-admin.iml" filepath="$PROJECT_DIR$/module-admin/module-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-common/module-common.iml" filepath="$PROJECT_DIR$/module-common/module-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-mbg/module-mbg.iml" filepath="$PROJECT_DIR$/module-mbg/module-mbg.iml" />
+    </modules>
+  </component>
+</project>
