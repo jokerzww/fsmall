@@ -4,63 +4,63 @@ import java.io.Serializable;
 import javax.annotation.Generated;
 
 public class CustomerTb implements Serializable {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6946825+08:00", comments="Source field: customer_tb.id")
     private String id;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6946825+08:00", comments="Source field: customer_tb.name")
     private String name;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.address")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7026611+08:00", comments="Source field: customer_tb.address")
     private String address;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.phone")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7026611+08:00", comments="Source field: customer_tb.phone")
     private String phone;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7026611+08:00", comments="Source Table: customer_tb")
     private static final long serialVersionUID = 1L;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6946825+08:00", comments="Source field: customer_tb.id")
     public String getId() {
         return id;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6946825+08:00", comments="Source field: customer_tb.id")
     public void setId(String id) {
         this.id = id;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6946825+08:00", comments="Source field: customer_tb.name")
     public String getName() {
         return name;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7016637+08:00", comments="Source field: customer_tb.name")
     public void setName(String name) {
         this.name = name;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.address")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7026611+08:00", comments="Source field: customer_tb.address")
     public String getAddress() {
         return address;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.address")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7026611+08:00", comments="Source field: customer_tb.address")
     public void setAddress(String address) {
         this.address = address;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.phone")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7026611+08:00", comments="Source field: customer_tb.phone")
     public String getPhone() {
         return phone;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source field: customer_tb.phone")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7026611+08:00", comments="Source field: customer_tb.phone")
     public void setPhone(String phone) {
         this.phone = phone;
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7026611+08:00", comments="Source Table: customer_tb")
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(getClass().getSimpleName());
@@ -76,7 +76,7 @@ public class CustomerTb implements Serializable {
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7046558+08:00", comments="Source Table: customer_tb")
     public boolean equals(Object that) {
         if (this == that) {
             return true;
@@ -95,7 +95,7 @@ public class CustomerTb implements Serializable {
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2009001+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7046558+08:00", comments="Source Table: customer_tb")
     public int hashCode() {
         final int prime = 31;
         int result = 1;

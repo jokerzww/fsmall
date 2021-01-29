@@ -1,6 +1,1055 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="989611b9-7498-4479-b47d-6fcbf7c13f97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/AccountsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/AccountsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/AdministrableRoleAuthorizationsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/AdministrableRoleAuthorizationsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ApplicableRolesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ApplicableRolesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/BinaryLogTransactionCompressionStatsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/BinaryLogTransactionCompressionStatsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CartTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CartTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CartTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CartTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CharacterSetsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CharacterSetsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CheckConstraintsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CheckConstraintsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CollationCharacterSetApplicabilityDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CollationCharacterSetApplicabilityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CollationsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CollationsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ColumnPrivilegesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ColumnPrivilegesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ColumnStatisticsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ColumnStatisticsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ColumnsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ColumnsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ColumnsPrivDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ColumnsPrivMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ComponentDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ComponentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CondInstancesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CondInstancesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CustomerTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CustomerTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CustomerTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CustomerTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/DataLockWaitsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/DataLockWaitsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/DataLocksDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/DataLocksMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/DbDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/DbMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/DefaultRolesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/DefaultRolesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EnabledRolesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EnabledRolesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EngineCostDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EngineCostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EnginesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EnginesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryByAccountByErrorDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryByAccountByErrorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryByHostByErrorDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryByHostByErrorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryByThreadByErrorDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryByThreadByErrorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryByUserByErrorDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryByUserByErrorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryGlobalByErrorDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsErrorsSummaryGlobalByErrorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesCurrentDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesCurrentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesHistoryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesHistoryLongDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesHistoryLongMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryByAccountByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryByAccountByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryByHostByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryByHostByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryByThreadByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryByThreadByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryByUserByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryByUserByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryGlobalByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStagesSummaryGlobalByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsCurrentDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsCurrentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsHistogramByDigestDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsHistogramByDigestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsHistogramGlobalDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsHistogramGlobalMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsHistoryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsHistoryLongDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsHistoryLongMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByAccountByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByAccountByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByDigestDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByDigestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByHostByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByHostByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByProgramDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByProgramMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByThreadByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByThreadByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByUserByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryByUserByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryGlobalByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsStatementsSummaryGlobalByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsCurrentDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsCurrentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsHistoryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsHistoryLongDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsHistoryLongMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryByAccountByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryByAccountByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryByHostByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryByHostByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryByThreadByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryByThreadByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryByUserByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryByUserByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryGlobalByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsTransactionsSummaryGlobalByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsCurrentDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsCurrentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsHistoryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsHistoryLongDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsHistoryLongMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByAccountByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByAccountByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByHostByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByHostByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByInstanceDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByInstanceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByThreadByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByThreadByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByUserByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryByUserByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryGlobalByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/EventsWaitsSummaryGlobalByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FileInstancesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FileInstancesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FileSummaryByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FileSummaryByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FileSummaryByInstanceDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FileSummaryByInstanceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FilesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FilesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FuncDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/FuncMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GeneralLogDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GeneralLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GlobalGrantsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GlobalGrantsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GlobalStatusDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GlobalStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GlobalVariablesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GlobalVariablesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GtidExecutedDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/GtidExecutedMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HelpCategoryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HelpCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HelpKeywordDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HelpKeywordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HelpRelationDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HelpRelationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HelpTopicDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HelpTopicMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostCacheDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostCacheMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByFileIoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByFileIoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByFileIoTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByFileIoTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByStagesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByStagesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByStatementLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByStatementLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByStatementTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryByStatementTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostSummaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/HostsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferPageDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferPageLruDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferPageLruMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferPageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferPoolStatsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferPoolStatsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferStatsBySchemaDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferStatsBySchemaMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferStatsByTableDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbBufferStatsByTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCachedIndexesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCachedIndexesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpPerIndexDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpPerIndexMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpPerIndexResetDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpPerIndexResetMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpResetDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpResetMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpmemDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpmemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpmemResetDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbCmpmemResetMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbColumnsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbColumnsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbDatafilesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbDatafilesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFieldsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFieldsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbForeignColsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbForeignColsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbForeignDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbForeignMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtBeingDeletedDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtBeingDeletedMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtConfigDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtDefaultStopwordDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtDefaultStopwordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtDeletedDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtDeletedMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtIndexCacheDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtIndexCacheMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtIndexTableDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbFtIndexTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbIndexStatsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbIndexStatsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbIndexesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbIndexesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbLockWaitsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbLockWaitsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbMetricsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbMetricsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbSessionTempTablespacesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbSessionTempTablespacesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTableStatsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTableStatsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTablesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTablesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTablespacesBriefDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTablespacesBriefMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTablespacesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTablespacesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTempTableInfoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTempTableInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTrxDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbTrxMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbVirtualDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/InnodbVirtualMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoByThreadByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoByThreadByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoGlobalByFileByBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoGlobalByFileByBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoGlobalByFileByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoGlobalByFileByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoGlobalByWaitByBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoGlobalByWaitByBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoGlobalByWaitByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/IoGlobalByWaitByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemClassTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemClassTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemClassTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemClassTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemLabelTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemLabelTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemLabelTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemLabelTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemListTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemListTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemListTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemListTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/KeyColumnUsageDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/KeyColumnUsageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/KeyringKeysDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/KeyringKeysMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/KeywordsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/KeywordsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/LatestFileIoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/LatestFileIoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/LogStatusDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/LogStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MallTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MallTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MallTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MallTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryByHostByCurrentBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryByHostByCurrentBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryByThreadByCurrentBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryByThreadByCurrentBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryByUserByCurrentBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryByUserByCurrentBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryGlobalByCurrentBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryGlobalByCurrentBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryGlobalTotalDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemoryGlobalTotalMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryByAccountByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryByAccountByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryByHostByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryByHostByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryByThreadByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryByThreadByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryByUserByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryByUserByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryGlobalByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MemorySummaryGlobalByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MetadataLocksDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MetadataLocksMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MetricsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MetricsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MutexInstancesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MutexInstancesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ObjectsSummaryGlobalByTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ObjectsSummaryGlobalByTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OptimizerTraceDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OptimizerTraceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OrderTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OrderTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OrderTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OrderTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ParametersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ParametersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PartitionsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PartitionsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PasswordHistoryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PasswordHistoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PerformanceTimersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PerformanceTimersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PersistedVariablesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PersistedVariablesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PicTbDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PicTbDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PicTbMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PicTbMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PluginDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PluginMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PluginsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PluginsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PreparedStatementsInstancesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PreparedStatementsInstancesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ProcesslistDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ProcesslistMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ProcsPrivDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ProcsPrivMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ProfilingDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ProfilingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ProxiesPrivDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ProxiesPrivMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PsCheckLostInstrumentationDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PsCheckLostInstrumentationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReferentialConstraintsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReferentialConstraintsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierConfigurationDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierConfigurationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierFiltersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierFiltersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierGlobalFiltersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierGlobalFiltersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierStatusByCoordinatorDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierStatusByCoordinatorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierStatusByWorkerDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierStatusByWorkerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierStatusDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationApplierStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationConnectionConfigurationDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationConnectionConfigurationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationConnectionStatusDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationConnectionStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationGroupMemberStatsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationGroupMemberStatsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationGroupMembersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ReplicationGroupMembersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ResourceGroupsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ResourceGroupsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoleColumnGrantsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoleColumnGrantsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoleEdgesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoleEdgesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoleRoutineGrantsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoleRoutineGrantsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoleTableGrantsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoleTableGrantsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoutinesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RoutinesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RwlockInstancesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/RwlockInstancesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaAutoIncrementColumnsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaAutoIncrementColumnsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaIndexStatisticsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaIndexStatisticsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaObjectOverviewDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaObjectOverviewMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaPrivilegesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaPrivilegesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaRedundantIndexesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaRedundantIndexesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaTableLockWaitsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaTableLockWaitsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaTableStatisticsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaTableStatisticsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaTableStatisticsWithBufferDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaTableStatisticsWithBufferMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaTablesWithFullTableScansDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaTablesWithFullTableScansMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaUnusedIndexesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemaUnusedIndexesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemataDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SchemataMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ServerCostDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ServerCostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ServersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ServersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionAccountConnectAttrsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionAccountConnectAttrsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionConnectAttrsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionConnectAttrsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionSslStatusDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionSslStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionStatusDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionVariablesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SessionVariablesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupActorsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupActorsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupConsumersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupConsumersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupInstrumentsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupInstrumentsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupObjectsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupObjectsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupThreadsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SetupThreadsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SlaveMasterInfoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SlaveMasterInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SlaveRelayLogInfoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SlaveRelayLogInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SlaveWorkerInfoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SlaveWorkerInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SlowLogDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SlowLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SocketInstancesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SocketInstancesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SocketSummaryByEventNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SocketSummaryByEventNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SocketSummaryByInstanceDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SocketSummaryByInstanceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StGeometryColumnsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StGeometryColumnsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StSpatialReferenceSystemsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StSpatialReferenceSystemsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StUnitsOfMeasureDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StUnitsOfMeasureMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementAnalysisDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementAnalysisMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithErrorsOrWarningsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithErrorsOrWarningsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithFullTableScansDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithFullTableScansMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithRuntimesIn95thPercentileDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithRuntimesIn95thPercentileMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithSortingDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithSortingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithTempTablesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatementsWithTempTablesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatisticsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatisticsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatusByAccountDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatusByAccountMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatusByHostDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatusByHostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatusByThreadDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatusByThreadMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatusByUserDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/StatusByUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SysConfigDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/SysConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableConstraintsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableConstraintsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableHandlesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableHandlesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableIoWaitsSummaryByIndexUsageDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableIoWaitsSummaryByIndexUsageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableIoWaitsSummaryByTableDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableIoWaitsSummaryByTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableLockWaitsSummaryByTableDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TableLockWaitsSummaryByTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TablePrivilegesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TablePrivilegesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TablesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TablesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TablesPrivDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TablesPrivMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TablespacesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TablespacesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ThreadsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ThreadsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneLeapSecondDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneLeapSecondMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneNameDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneNameMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneTransitionDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneTransitionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneTransitionTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TimeZoneTransitionTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TriggersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/TriggersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserDefinedFunctionsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserDefinedFunctionsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserPrivilegesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserPrivilegesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByFileIoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByFileIoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByFileIoTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByFileIoTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByStagesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByStagesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByStatementLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByStatementLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByStatementTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryByStatementTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserSummaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserVariablesByThreadDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UserVariablesByThreadMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UsersDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/UsersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/VariablesByThreadDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/VariablesByThreadMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/VariablesInfoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/VariablesInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/VersionDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/VersionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ViewRoutineUsageDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ViewRoutineUsageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ViewTableUsageDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ViewTableUsageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ViewsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ViewsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitClassesGlobalByAvgLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitClassesGlobalByAvgLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitClassesGlobalByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitClassesGlobalByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitsByHostByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitsByHostByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitsByUserByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitsByUserByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitsGlobalByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/WaitsGlobalByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByFileIoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByFileIoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByFileIoTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByFileIoTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByStagesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByStagesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByStatementLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByStatementLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByStatementTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryByStatementTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XHostSummaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XInnodbBufferStatsBySchemaDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XInnodbBufferStatsBySchemaMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XInnodbBufferStatsByTableDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XInnodbBufferStatsByTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XInnodbLockWaitsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XInnodbLockWaitsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoByThreadByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoByThreadByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoGlobalByFileByBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoGlobalByFileByBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoGlobalByFileByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoGlobalByFileByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoGlobalByWaitByBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoGlobalByWaitByBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoGlobalByWaitByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XIoGlobalByWaitByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XLatestFileIoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XLatestFileIoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryByHostByCurrentBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryByHostByCurrentBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryByThreadByCurrentBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryByThreadByCurrentBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryByUserByCurrentBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryByUserByCurrentBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryGlobalByCurrentBytesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryGlobalByCurrentBytesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryGlobalTotalDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XMemoryGlobalTotalMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XProcesslistDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XProcesslistMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XPsDigest95thPercentileByAvgUsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XPsDigest95thPercentileByAvgUsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XPsDigestAvgLatencyDistributionDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XPsDigestAvgLatencyDistributionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XPsSchemaTableStatisticsIoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XPsSchemaTableStatisticsIoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaFlattenedKeysDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaFlattenedKeysMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaIndexStatisticsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaIndexStatisticsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaTableLockWaitsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaTableLockWaitsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaTableStatisticsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaTableStatisticsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaTableStatisticsWithBufferDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaTableStatisticsWithBufferMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaTablesWithFullTableScansDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSchemaTablesWithFullTableScansMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSessionDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XSessionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementAnalysisDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementAnalysisMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithErrorsOrWarningsDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithErrorsOrWarningsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithFullTableScansDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithFullTableScansMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithRuntimesIn95thPercentileDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithRuntimesIn95thPercentileMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithSortingDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithSortingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithTempTablesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XStatementsWithTempTablesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByFileIoDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByFileIoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByFileIoTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByFileIoTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByStagesDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByStagesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByStatementLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByStatementLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByStatementTypeDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryByStatementTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XUserSummaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitClassesGlobalByAvgLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitClassesGlobalByAvgLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitClassesGlobalByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitClassesGlobalByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitsByHostByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitsByHostByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitsByUserByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitsByUserByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitsGlobalByLatencyDynamicSqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/XWaitsGlobalByLatencyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/AdministrableRoleAuthorizations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ApplicableRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/BinaryLogTransactionCompressionStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/CartTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/CartTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/CharacterSets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/CheckConstraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/CollationCharacterSetApplicability.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Collations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ColumnPrivileges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ColumnStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Columns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ColumnsPriv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/CondInstances.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/CustomerTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/CustomerTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/DataLockWaits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/DataLocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Db.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/DefaultRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EnabledRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EngineCost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Engines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Events.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsErrorsSummaryByAccountByError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsErrorsSummaryByHostByError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsErrorsSummaryByThreadByError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsErrorsSummaryByUserByError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsErrorsSummaryGlobalByError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStagesCurrent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStagesHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStagesHistoryLong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStagesSummaryByAccountByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStagesSummaryByHostByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStagesSummaryByThreadByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStagesSummaryByUserByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStagesSummaryGlobalByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsCurrent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsHistogramByDigest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsHistogramGlobal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsHistoryLong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsSummaryByAccountByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsSummaryByDigest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsSummaryByHostByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsSummaryByProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsSummaryByThreadByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsSummaryByUserByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsStatementsSummaryGlobalByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsTransactionsCurrent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsTransactionsHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsTransactionsHistoryLong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsTransactionsSummaryByAccountByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsTransactionsSummaryByHostByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsTransactionsSummaryByThreadByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsTransactionsSummaryByUserByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsTransactionsSummaryGlobalByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsCurrent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsHistoryLong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsSummaryByAccountByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsSummaryByHostByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsSummaryByInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsSummaryByThreadByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsSummaryByUserByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/EventsWaitsSummaryGlobalByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/FileInstances.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/FileSummaryByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/FileSummaryByInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Files.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Func.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/GeneralLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/GlobalGrants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/GlobalStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/GlobalVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/GtidExecuted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HelpCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HelpKeyword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HelpRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HelpTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HostCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HostSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HostSummaryByFileIo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HostSummaryByFileIoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HostSummaryByStages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HostSummaryByStatementLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/HostSummaryByStatementType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Hosts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbBufferPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbBufferPageLru.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbBufferPoolStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbBufferStatsBySchema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbBufferStatsByTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbCachedIndexes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbCmp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbCmpPerIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbCmpPerIndexReset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbCmpReset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbCmpmem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbCmpmemReset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbColumns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbDatafiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbForeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbForeignCols.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbFtBeingDeleted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbFtConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbFtDefaultStopword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbFtDeleted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbFtIndexCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbFtIndexTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbIndexStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbIndexes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbLockWaits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbMetrics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbSessionTempTablespaces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbTableStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbTables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbTablespaces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbTablespacesBrief.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbTempTableInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbTrx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/InnodbVirtual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/IoByThreadByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/IoGlobalByFileByBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/IoGlobalByFileByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/IoGlobalByWaitByBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/IoGlobalByWaitByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemClassTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemClassTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemLabelTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemLabelTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemListTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemListTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/KeyColumnUsage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/KeyringKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Keywords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/LatestFileIo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/LogStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MallTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MallTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemoryByHostByCurrentBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemoryByThreadByCurrentBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemoryByUserByCurrentBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemoryGlobalByCurrentBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemoryGlobalTotal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemorySummaryByAccountByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemorySummaryByHostByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemorySummaryByThreadByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemorySummaryByUserByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MemorySummaryGlobalByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MetadataLocks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Metrics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/MutexInstances.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ObjectsSummaryGlobalByType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/OptimizerTrace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/OrderTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/OrderTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Parameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Partitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/PasswordHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/PerformanceTimers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/PersistedVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/PicTb.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/PicTb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Plugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Plugins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/PreparedStatementsInstances.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Processlist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ProcsPriv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Profiling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ProxiesPriv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/PsCheckLostInstrumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReferentialConstraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationApplierConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationApplierFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationApplierGlobalFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationApplierStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationApplierStatusByCoordinator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationApplierStatusByWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationConnectionConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationConnectionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationGroupMemberStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ReplicationGroupMembers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ResourceGroups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/RoleColumnGrants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/RoleEdges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/RoleRoutineGrants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/RoleTableGrants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Routines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/RwlockInstances.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaAutoIncrementColumns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaIndexStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaObjectOverview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaPrivileges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaRedundantIndexes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaTableLockWaits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaTableStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaTableStatisticsWithBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaTablesWithFullTableScans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SchemaUnusedIndexes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Schemata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ServerCost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Servers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Session.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SessionAccountConnectAttrs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SessionConnectAttrs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SessionSslStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SessionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SessionVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SetupActors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SetupConsumers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SetupInstruments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SetupObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SetupThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SlaveMasterInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SlaveRelayLogInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SlaveWorkerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SlowLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SocketInstances.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SocketSummaryByEventName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SocketSummaryByInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StGeometryColumns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StSpatialReferenceSystems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StUnitsOfMeasure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatementAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatementsWithErrorsOrWarnings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatementsWithFullTableScans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatementsWithRuntimesIn95thPercentile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatementsWithSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatementsWithTempTables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Statistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatusByAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatusByHost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatusByThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/StatusByUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/SysConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TableConstraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TableHandles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TableIoWaitsSummaryByIndexUsage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TableIoWaitsSummaryByTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TableLockWaitsSummaryByTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TablePrivileges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Tables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TablesPriv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Tablespaces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Threads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TimeZone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TimeZoneLeapSecond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TimeZoneName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TimeZoneTransition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/TimeZoneTransitionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Triggers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserDefinedFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserPrivileges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserSummaryByFileIo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserSummaryByFileIoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserSummaryByStages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserSummaryByStatementLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserSummaryByStatementType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/UserVariablesByThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/VariablesByThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/VariablesInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Version.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ViewRoutineUsage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ViewTableUsage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Views.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/WaitClassesGlobalByAvgLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/WaitClassesGlobalByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/WaitsByHostByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/WaitsByUserByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/WaitsGlobalByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XHostSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XHostSummaryByFileIo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XHostSummaryByFileIoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XHostSummaryByStages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XHostSummaryByStatementLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XHostSummaryByStatementType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XInnodbBufferStatsBySchema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XInnodbBufferStatsByTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XInnodbLockWaits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XIoByThreadByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XIoGlobalByFileByBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XIoGlobalByFileByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XIoGlobalByWaitByBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XIoGlobalByWaitByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XLatestFileIo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XMemoryByHostByCurrentBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XMemoryByThreadByCurrentBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XMemoryByUserByCurrentBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XMemoryGlobalByCurrentBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XMemoryGlobalTotal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XProcesslist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XPsDigest95thPercentileByAvgUs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XPsDigestAvgLatencyDistribution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XPsSchemaTableStatisticsIo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XSchemaFlattenedKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XSchemaIndexStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XSchemaTableLockWaits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XSchemaTableStatistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XSchemaTableStatisticsWithBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XSchemaTablesWithFullTableScans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XStatementAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XStatementsWithErrorsOrWarnings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XStatementsWithFullTableScans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XStatementsWithRuntimesIn95thPercentile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XStatementsWithSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XStatementsWithTempTables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XUserSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XUserSummaryByFileIo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XUserSummaryByFileIoType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XUserSummaryByStages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XUserSummaryByStatementLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XUserSummaryByStatementType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XWaitClassesGlobalByAvgLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XWaitClassesGlobalByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XWaitsByHostByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XWaitsByUserByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/XWaitsGlobalByLatency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/resources/Mybatis_Generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/resources/Mybatis_Generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/target/classes/GeneratorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/target/classes/GeneratorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/target/classes/Mybatis_Generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/target/classes/Mybatis_Generator.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1njNTm2Qb8lT5XPSwJViIM29tLJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Generator">
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fsteam.fsmall.Generator" />
+      <module name="module-mbg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fsteam.fsmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="module-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fsteam.fsmall.admin.AdminApplication" />
@@ -8,5 +1057,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Generator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="989611b9-7498-4479-b47d-6fcbf7c13f97" name="Default Changelist" comment="" />
+      <created>1611899549980</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611899549980</updated>
+      <workItem from="1611899551532" duration="347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611899648412">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899648412" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611899648412">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899648412" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611899648412">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899648412" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611899648412">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899648412" />
+    <state x="1806" y="94" key="SettingsEditor" timestamp="1611899589472">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1806" y="94" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899589472" />
+    <state x="1918" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611899847783">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1918" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899847783" />
+    <state x="2143" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611899750771">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2143" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899750771" />
   </component>
 </project>

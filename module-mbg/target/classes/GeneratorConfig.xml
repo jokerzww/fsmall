@@ -24,7 +24,12 @@
         <jdbcConnection driverClass="${jdbc.driverClass}"
                         connectionURL="${jdbc.connectionURL}"
                         userId="${jdbc.userId}"
-                        password="${jdbc.password}"/>
+                        password="${jdbc.password}">
+                <!--解决mysql驱动升级到8.0后不生成指定数据库代码的问题-->
+                <property name="nullCatalogMeansCurrent" value="true"/>
+        </jdbcConnection>
+
+            
 
         <javaModelGenerator targetPackage="com.fsteam.fsmall.model" targetProject="module-mbg\src\main\java"/>
         <sqlMapGenerator targetPackage="com.fsteam.fsmall.mapper" targetProject="module-mbg\src\main\resources"/>

@@ -6,23 +6,28 @@ import org.mybatis.dynamic.sql.SqlColumn;
 import org.mybatis.dynamic.sql.SqlTable;
 
 public final class ItemListTbDynamicSqlSupport {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.1288322+08:00", comments="Source Table: item_list_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6567842+08:00", comments="Source Table: item_list_tb")
     public static final ItemListTb itemListTb = new ItemListTb();
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.1288322+08:00", comments="Source field: item_list_tb.order_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6567842+08:00", comments="Source field: item_list_tb.id")
+    public static final SqlColumn<Integer> id = itemListTb.id;
+
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6587783+08:00", comments="Source field: item_list_tb.order_id")
     public static final SqlColumn<Integer> orderId = itemListTb.orderId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.1288322+08:00", comments="Source field: item_list_tb.item_name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6597754+08:00", comments="Source field: item_list_tb.item_name")
     public static final SqlColumn<String> itemName = itemListTb.itemName;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.1288322+08:00", comments="Source field: item_list_tb.item_number")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6617705+08:00", comments="Source field: item_list_tb.item_number")
     public static final SqlColumn<Integer> itemNumber = itemListTb.itemNumber;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.1288322+08:00", comments="Source field: item_list_tb.price")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6617705+08:00", comments="Source field: item_list_tb.price")
     public static final SqlColumn<Long> price = itemListTb.price;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.1288322+08:00", comments="Source Table: item_list_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6567842+08:00", comments="Source Table: item_list_tb")
     public static final class ItemListTb extends SqlTable {
+        public final SqlColumn<Integer> id = column("id", JDBCType.INTEGER);
+
         public final SqlColumn<Integer> orderId = column("order_id", JDBCType.INTEGER);
 
         public final SqlColumn<String> itemName = column("item_name", JDBCType.VARCHAR);

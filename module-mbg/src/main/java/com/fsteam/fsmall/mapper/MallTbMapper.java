@@ -33,28 +33,28 @@ import org.mybatis.dynamic.sql.util.mybatis3.MyBatis3Utils;
 
 @Mapper
 public interface MallTbMapper {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     BasicColumn[] selectList = BasicColumn.columnList(id, name, description, phone, address, iconId, status);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7615045+08:00", comments="Source Table: mall_tb")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     long count(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7615045+08:00", comments="Source Table: mall_tb")
     @DeleteProvider(type=SqlProviderAdapter.class, method="delete")
     int delete(DeleteStatementProvider deleteStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7625016+08:00", comments="Source Table: mall_tb")
     @InsertProvider(type=SqlProviderAdapter.class, method="insert")
     @SelectKey(statement="SELECT LAST_INSERT_ID()", keyProperty="record.id", before=false, resultType=String.class)
     int insert(InsertStatementProvider<MallTb> insertStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7644959+08:00", comments="Source Table: mall_tb")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     @ResultMap("MallTbResult")
     Optional<MallTb> selectOne(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7654943+08:00", comments="Source Table: mall_tb")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     @Results(id="MallTbResult", value = {
         @Result(column="id", property="id", jdbcType=JdbcType.VARCHAR, id=true),
@@ -67,28 +67,28 @@ public interface MallTbMapper {
     })
     List<MallTb> selectMany(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7654943+08:00", comments="Source Table: mall_tb")
     @UpdateProvider(type=SqlProviderAdapter.class, method="update")
     int update(UpdateStatementProvider updateStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7654943+08:00", comments="Source Table: mall_tb")
     default long count(CountDSLCompleter completer) {
         return MyBatis3Utils.countFrom(this::count, mallTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7654943+08:00", comments="Source Table: mall_tb")
     default int delete(DeleteDSLCompleter completer) {
         return MyBatis3Utils.deleteFrom(this::delete, mallTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     default int deleteByPrimaryKey(String id_) {
         return delete(c -> 
             c.where(id, isEqualTo(id_))
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     default int insert(MallTb record) {
         return MyBatis3Utils.insert(this::insert, record, mallTb, c ->
             c.map(name).toProperty("name")
@@ -100,7 +100,7 @@ public interface MallTbMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     default int insertSelective(MallTb record) {
         return MyBatis3Utils.insert(this::insert, record, mallTb, c ->
             c.map(name).toPropertyWhenPresent("name", record::getName)
@@ -112,34 +112,34 @@ public interface MallTbMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     default Optional<MallTb> selectOne(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectOne(this::selectOne, selectList, mallTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     default List<MallTb> select(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectList(this::selectMany, selectList, mallTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     default List<MallTb> selectDistinct(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectDistinct(this::selectMany, selectList, mallTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2359304+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     default Optional<MallTb> selectByPrimaryKey(String id_) {
         return selectOne(c ->
             c.where(id, isEqualTo(id_))
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2369308+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7664909+08:00", comments="Source Table: mall_tb")
     default int update(UpdateDSLCompleter completer) {
         return MyBatis3Utils.update(this::update, mallTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2369308+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7674901+08:00", comments="Source Table: mall_tb")
     static UpdateDSL<UpdateModel> updateAllColumns(MallTb record, UpdateDSL<UpdateModel> dsl) {
         return dsl.set(name).equalTo(record::getName)
                 .set(description).equalTo(record::getDescription)
@@ -149,7 +149,7 @@ public interface MallTbMapper {
                 .set(status).equalTo(record::getStatus);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2369308+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7674901+08:00", comments="Source Table: mall_tb")
     static UpdateDSL<UpdateModel> updateSelectiveColumns(MallTb record, UpdateDSL<UpdateModel> dsl) {
         return dsl.set(name).equalToWhenPresent(record::getName)
                 .set(description).equalToWhenPresent(record::getDescription)
@@ -159,7 +159,7 @@ public interface MallTbMapper {
                 .set(status).equalToWhenPresent(record::getStatus);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2369308+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7674901+08:00", comments="Source Table: mall_tb")
     default int updateByPrimaryKey(MallTb record) {
         return update(c ->
             c.set(name).equalTo(record::getName)
@@ -172,7 +172,7 @@ public interface MallTbMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T00:44:41.2369308+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7684864+08:00", comments="Source Table: mall_tb")
     default int updateByPrimaryKeySelective(MallTb record) {
         return update(c ->
             c.set(name).equalToWhenPresent(record::getName)
