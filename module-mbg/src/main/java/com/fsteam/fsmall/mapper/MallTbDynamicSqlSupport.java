@@ -6,31 +6,31 @@ import org.mybatis.dynamic.sql.SqlColumn;
 import org.mybatis.dynamic.sql.SqlTable;
 
 public final class MallTbDynamicSqlSupport {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7525281+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2260354+08:00", comments="Source Table: mall_tb")
     public static final MallTb mallTb = new MallTb();
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7565182+08:00", comments="Source field: mall_tb.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2260354+08:00", comments="Source field: mall_tb.id")
     public static final SqlColumn<String> id = mallTb.id;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7565182+08:00", comments="Source field: mall_tb.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2270327+08:00", comments="Source field: mall_tb.name")
     public static final SqlColumn<String> name = mallTb.name;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7565182+08:00", comments="Source field: mall_tb.description")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2270327+08:00", comments="Source field: mall_tb.description")
     public static final SqlColumn<String> description = mallTb.description;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7575151+08:00", comments="Source field: mall_tb.phone")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2270327+08:00", comments="Source field: mall_tb.phone")
     public static final SqlColumn<String> phone = mallTb.phone;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7605066+08:00", comments="Source field: mall_tb.address")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2280295+08:00", comments="Source field: mall_tb.address")
     public static final SqlColumn<String> address = mallTb.address;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7615045+08:00", comments="Source field: mall_tb.icon_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2280295+08:00", comments="Source field: mall_tb.icon_id")
     public static final SqlColumn<Integer> iconId = mallTb.iconId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7615045+08:00", comments="Source field: mall_tb.status")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2290271+08:00", comments="Source field: mall_tb.status")
     public static final SqlColumn<Integer> status = mallTb.status;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7565182+08:00", comments="Source Table: mall_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2260354+08:00", comments="Source Table: mall_tb")
     public static final class MallTb extends SqlTable {
         public final SqlColumn<String> id = column("id", JDBCType.VARCHAR);
 

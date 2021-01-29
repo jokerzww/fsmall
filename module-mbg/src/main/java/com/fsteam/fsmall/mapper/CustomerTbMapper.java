@@ -33,28 +33,28 @@ import org.mybatis.dynamic.sql.util.mybatis3.MyBatis3Utils;
 
 @Mapper
 public interface CustomerTbMapper {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.712634+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     BasicColumn[] selectList = BasicColumn.columnList(id, name, address, phone);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7106395+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.20908+08:00", comments="Source Table: customer_tb")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     long count(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7106395+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.20908+08:00", comments="Source Table: customer_tb")
     @DeleteProvider(type=SqlProviderAdapter.class, method="delete")
     int delete(DeleteStatementProvider deleteStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7116372+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.20908+08:00", comments="Source Table: customer_tb")
     @InsertProvider(type=SqlProviderAdapter.class, method="insert")
     @SelectKey(statement="SELECT LAST_INSERT_ID()", keyProperty="record.id", before=false, resultType=String.class)
     int insert(InsertStatementProvider<CustomerTb> insertStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7116372+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.20908+08:00", comments="Source Table: customer_tb")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     @ResultMap("CustomerTbResult")
     Optional<CustomerTb> selectOne(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7116372+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     @Results(id="CustomerTbResult", value = {
         @Result(column="id", property="id", jdbcType=JdbcType.VARCHAR, id=true),
@@ -64,28 +64,28 @@ public interface CustomerTbMapper {
     })
     List<CustomerTb> selectMany(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7116372+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     @UpdateProvider(type=SqlProviderAdapter.class, method="update")
     int update(UpdateStatementProvider updateStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7116372+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     default long count(CountDSLCompleter completer) {
         return MyBatis3Utils.countFrom(this::count, customerTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7116372+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     default int delete(DeleteDSLCompleter completer) {
         return MyBatis3Utils.deleteFrom(this::delete, customerTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7116372+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     default int deleteByPrimaryKey(String id_) {
         return delete(c -> 
             c.where(id, isEqualTo(id_))
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.712634+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     default int insert(CustomerTb record) {
         return MyBatis3Utils.insert(this::insert, record, customerTb, c ->
             c.map(name).toProperty("name")
@@ -94,7 +94,7 @@ public interface CustomerTbMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.712634+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     default int insertSelective(CustomerTb record) {
         return MyBatis3Utils.insert(this::insert, record, customerTb, c ->
             c.map(name).toPropertyWhenPresent("name", record::getName)
@@ -103,48 +103,48 @@ public interface CustomerTbMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.712634+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     default Optional<CustomerTb> selectOne(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectOne(this::selectOne, selectList, customerTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.712634+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     default List<CustomerTb> select(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectList(this::selectMany, selectList, customerTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.712634+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2100863+08:00", comments="Source Table: customer_tb")
     default List<CustomerTb> selectDistinct(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectDistinct(this::selectMany, selectList, customerTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.712634+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2110748+08:00", comments="Source Table: customer_tb")
     default Optional<CustomerTb> selectByPrimaryKey(String id_) {
         return selectOne(c ->
             c.where(id, isEqualTo(id_))
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7136316+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2130695+08:00", comments="Source Table: customer_tb")
     default int update(UpdateDSLCompleter completer) {
         return MyBatis3Utils.update(this::update, customerTb, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7136316+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2130695+08:00", comments="Source Table: customer_tb")
     static UpdateDSL<UpdateModel> updateAllColumns(CustomerTb record, UpdateDSL<UpdateModel> dsl) {
         return dsl.set(name).equalTo(record::getName)
                 .set(address).equalTo(record::getAddress)
                 .set(phone).equalTo(record::getPhone);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7136316+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2140667+08:00", comments="Source Table: customer_tb")
     static UpdateDSL<UpdateModel> updateSelectiveColumns(CustomerTb record, UpdateDSL<UpdateModel> dsl) {
         return dsl.set(name).equalToWhenPresent(record::getName)
                 .set(address).equalToWhenPresent(record::getAddress)
                 .set(phone).equalToWhenPresent(record::getPhone);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7136316+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2170589+08:00", comments="Source Table: customer_tb")
     default int updateByPrimaryKey(CustomerTb record) {
         return update(c ->
             c.set(name).equalTo(record::getName)
@@ -154,7 +154,7 @@ public interface CustomerTbMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.7186179+08:00", comments="Source Table: customer_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.2170589+08:00", comments="Source Table: customer_tb")
     default int updateByPrimaryKeySelective(CustomerTb record) {
         return update(c ->
             c.set(name).equalToWhenPresent(record::getName)

@@ -6,25 +6,25 @@ import org.mybatis.dynamic.sql.SqlColumn;
 import org.mybatis.dynamic.sql.SqlTable;
 
 public final class CartTbDynamicSqlSupport {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6767308+08:00", comments="Source Table: cart_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1901307+08:00", comments="Source Table: cart_tb")
     public static final CartTb cartTb = new CartTb();
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6847097+08:00", comments="Source field: cart_tb.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1941207+08:00", comments="Source field: cart_tb.id")
     public static final SqlColumn<Integer> id = cartTb.id;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6847097+08:00", comments="Source field: cart_tb.mall_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1941207+08:00", comments="Source field: cart_tb.mall_id")
     public static final SqlColumn<String> mallId = cartTb.mallId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6857071+08:00", comments="Source field: cart_tb.customer_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1951176+08:00", comments="Source field: cart_tb.customer_id")
     public static final SqlColumn<String> customerId = cartTb.customerId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6857071+08:00", comments="Source field: cart_tb.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1951176+08:00", comments="Source field: cart_tb.item_id")
     public static final SqlColumn<Integer> itemId = cartTb.itemId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6857071+08:00", comments="Source field: cart_tb.number")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1951176+08:00", comments="Source field: cart_tb.number")
     public static final SqlColumn<Integer> number = cartTb.number;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6807282+08:00", comments="Source Table: cart_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1931237+08:00", comments="Source Table: cart_tb")
     public static final class CartTb extends SqlTable {
         public final SqlColumn<Integer> id = column("id", JDBCType.INTEGER);
 

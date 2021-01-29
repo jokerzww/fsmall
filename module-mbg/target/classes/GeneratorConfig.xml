@@ -29,7 +29,13 @@
                 <property name="nullCatalogMeansCurrent" value="true"/>
         </jdbcConnection>
 
-            
+        <!--类型解析器-->
+        <javaTypeResolver type="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl">
+            <!--是否对整型进行分类-->
+            <property name="forceBigDecimals" value="true"/>
+            <!--是否试用jdk8时间类-->
+            <property name="useJSR310Types" value="true"/>
+        </javaTypeResolver>
 
         <javaModelGenerator targetPackage="com.fsteam.fsmall.model" targetProject="module-mbg\src\main\java"/>
         <sqlMapGenerator targetPackage="com.fsteam.fsmall.mapper" targetProject="module-mbg\src\main\resources"/>

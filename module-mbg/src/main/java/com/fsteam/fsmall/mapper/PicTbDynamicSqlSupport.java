@@ -6,22 +6,22 @@ import org.mybatis.dynamic.sql.SqlColumn;
 import org.mybatis.dynamic.sql.SqlTable;
 
 public final class PicTbDynamicSqlSupport {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6348435+08:00", comments="Source Table: pic_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1562222+08:00", comments="Source Table: pic_tb")
     public static final PicTb picTb = new PicTb();
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6358404+08:00", comments="Source field: pic_tb.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1572191+08:00", comments="Source field: pic_tb.id")
     public static final SqlColumn<Integer> id = picTb.id;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6368441+08:00", comments="Source field: pic_tb.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1572191+08:00", comments="Source field: pic_tb.item_id")
     public static final SqlColumn<Integer> itemId = picTb.itemId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6368441+08:00", comments="Source field: pic_tb.url")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1582165+08:00", comments="Source field: pic_tb.url")
     public static final SqlColumn<String> url = picTb.url;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.637835+08:00", comments="Source field: pic_tb.abs_path")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1582165+08:00", comments="Source field: pic_tb.abs_path")
     public static final SqlColumn<String> absPath = picTb.absPath;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T13:53:22.6348435+08:00", comments="Source Table: pic_tb")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-01-29T14:04:01.1572191+08:00", comments="Source Table: pic_tb")
     public static final class PicTb extends SqlTable {
         public final SqlColumn<Integer> id = column("id", JDBCType.INTEGER);
 
