@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="module-common" />
         <module name="module-mbg" />
+        <module name="module-security" />
         <module name="module-admin" />
+        <module name="module-pay" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +18,8 @@
       <module name="module-admin" target="15" />
       <module name="module-common" target="15" />
       <module name="module-mbg" target="15" />
+      <module name="module-pay" target="15" />
+      <module name="module-security" target="15" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +27,8 @@
       <module name="module-admin" options="-parameters" />
       <module name="module-common" options="-parameters" />
       <module name="module-mbg" options="-parameters" />
+      <module name="module-pay" options="-parameters" />
+      <module name="module-security" options="-parameters" />
     </option>
   </component>
 </project>

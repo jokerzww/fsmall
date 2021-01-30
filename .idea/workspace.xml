@@ -1332,6 +1332,8 @@
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="b2d2e136-8736-46e0-99bf-e547f1146f6d" name="feature_new" comment="" />
+    <list default="true" id="989611b9-7498-4479-b47d-6fcbf7c13f97" name="Default Changelist" comment="添加安全验证模块和支付模块" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1365,8 +1367,12 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1njNTm2Qb8lT5XPSwJViIM29tLJ" />
+
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+
+  <component name="ProjectLevelVcsManager">
+
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -1383,6 +1389,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall/mall-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -1395,6 +1402,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
@@ -1625,12 +1633,30 @@
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+
+  <component name="RunManager" selected="Application.Generator">
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fsteam.fsmall.Generator" />
+      <module name="module-mbg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fsteam.fsmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1678,7 +1704,12 @@
       <updated>1611899549980</updated>
       <workItem from="1611899551532" duration="2701000" />
       <workItem from="1611902301375" duration="1067000" />
+
       <workItem from="1611999994044" duration="4490000" />
+
+      <workItem from="1611913423119" duration="1146000" />
+      <workItem from="1611996124957" duration="1184000" />
+
     </task>
     <task id="LOCAL-00001" summary="MBG自动生成的文件">
       <created>1611900008338</created>
@@ -1701,7 +1732,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611903318080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改POM配置">
+      <created>1611913470236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611913470236</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改POM配置">
+      <created>1611913482244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611913482244</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加安全验证模块和支付模块">
+      <created>1611996673348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611996673348</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加安全验证模块和支付模块">
+      <created>1611996682085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611996682085</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1734,10 +1793,50 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MBG自动生成的文件" />
     <MESSAGE value="修改POM配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改POM配置" />
+    <MESSAGE value="添加安全验证模块和支付模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加安全验证模块和支付模块" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
-    <select />
+
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1611996611234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1611996611234" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611902256063">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611902256063" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611902256063">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611902256063" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611902256063">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611902256063" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611902256063">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611902256063" />
+    <state x="1806" y="94" key="SettingsEditor" timestamp="1611899589472">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1806" y="94" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899589472" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1611996709503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1611996709503" />
+    <state x="1918" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611913484189" />
+    <state x="2143" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611899750771">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2143" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899750771" />
+    <state x="320" y="24" key="new project wizard" timestamp="1611996583760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="320" y="24" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1611996583760" />
+
   </component>
 </project>
