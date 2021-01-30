@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/module-admin/module-admin.iml" filepath="$PROJECT_DIR$/module-admin/module-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/module-common/module-common.iml" filepath="$PROJECT_DIR$/module-common/module-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/module-mbg/module-mbg.iml" filepath="$PROJECT_DIR$/module-mbg/module-mbg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-pay/module-pay.iml" filepath="$PROJECT_DIR$/module-pay/module-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-security/module-security.iml" filepath="$PROJECT_DIR$/module-security/module-security.iml" />
     </modules>
   </component>
 </project>
