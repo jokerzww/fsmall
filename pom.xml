@@ -19,6 +19,8 @@
         <module>module-admin</module>
         <module>module-mbg</module>
         <module>module-common</module>
+        <module>module-security</module>
+        <module>module-pay</module>
     </modules>
 
     <properties>
