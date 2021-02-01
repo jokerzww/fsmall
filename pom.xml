@@ -30,6 +30,8 @@
         <module-admin.version>1.0-SNAPSHOT</module-admin.version>
         <module-common.version>1.0-SNAPSHOT</module-common.version>
         <module-mbg.version>1.0-SNAPSHOT</module-mbg.version>
+        <module-pay.version>1.0-SNAPSHOT</module-pay.version>
+        <module-security.version>1.0-SNAPSHOT</module-security.version>
 
         <mybatis.version>3.5.5</mybatis.version>
         <mybatis-dynamic.version>1.2.1</mybatis-dynamic.version>
@@ -39,6 +41,8 @@
         <druid.version>1.2.4</druid.version>
 
         <swagger-ui.version>3.0.0</swagger-ui.version>
+
+        <jwt.version>3.4.0</jwt.version>
 
     </properties>
 
@@ -79,6 +83,16 @@
                 <groupId>com.fsteam.fsmall</groupId>
                 <artifactId>module-common</artifactId>
                 <version>${module-common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fsteam.fsmall</groupId>
+                <artifactId>module-pay</artifactId>
+                <version>${module-pay.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fsteam.fsmall</groupId>
+                <artifactId>module-security</artifactId>
+                <version>${module-security.version}</version>
             </dependency>
 
             <dependency>
@@ -122,6 +136,12 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger-ui.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>${jwt.version}</version>
             </dependency>
 
         </dependencies>
