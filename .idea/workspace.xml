@@ -28,7 +28,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989611b9-7498-4479-b47d-6fcbf7c13f97" name="Default Changelist" comment="添加安全验证模块和支付模块" />
+    <list default="true" id="989611b9-7498-4479-b47d-6fcbf7c13f97" name="Default Changelist" comment="添加安全验证模块和支付模块">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-public/module-public.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-public/src/main/java/com/fsteam/fsmall/modulepublic/dto/FileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-common/module-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module-common/module-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-public/src/main/java/com/fsteam/fsmall/modulepublic/controller/MinioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-public/src/main/java/com/fsteam/fsmall/modulepublic/controller/MinioController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,15 +48,15 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1njNTm2Qb8lT5XPSwJViIM29tLJ" />
   <component name="ProjectLevelVcsManager">
@@ -67,6 +78,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -111,6 +123,7 @@
       <workItem from="1611902301375" duration="1067000" />
       <workItem from="1611913423119" duration="1146000" />
       <workItem from="1611996124957" duration="1184000" />
+      <workItem from="1612781174627" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="MBG自动生成的文件">
       <created>1611900008338</created>
@@ -196,44 +209,5 @@
     <MESSAGE value="修改POM配置" />
     <MESSAGE value="添加安全验证模块和支付模块" />
     <option name="LAST_COMMIT_MESSAGE" value="添加安全验证模块和支付模块" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1611996611234">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1611996611234" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611902256063">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611902256063" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611902256063">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611902256063" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611902256063">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611902256063" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611902256063">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611902256063" />
-    <state x="1806" y="94" key="SettingsEditor" timestamp="1611899589472">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1806" y="94" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899589472" />
-    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1611996709503">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1611996709503" />
-    <state x="1918" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611913484189" />
-    <state x="2143" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611899750771">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2143" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1611899750771" />
-    <state x="320" y="24" key="new project wizard" timestamp="1611996583760">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="320" y="24" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1611996583760" />
   </component>
 </project>

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="module-common" />
+        <module name="module-public" />
         <module name="module-mbg" />
         <module name="module-security" />
         <module name="module-admin" />
@@ -19,6 +21,7 @@
       <module name="module-common" target="15" />
       <module name="module-mbg" target="15" />
       <module name="module-pay" target="15" />
+      <module name="module-public" target="15" />
       <module name="module-security" target="15" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +31,7 @@
       <module name="module-common" options="-parameters" />
       <module name="module-mbg" options="-parameters" />
       <module name="module-pay" options="-parameters" />
+      <module name="module-public" options="-parameters" />
       <module name="module-security" options="-parameters" />
     </option>
   </component>
