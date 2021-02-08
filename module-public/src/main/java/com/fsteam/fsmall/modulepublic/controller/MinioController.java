@@ -34,7 +34,7 @@ public class MinioController {
 
     @RequestMapping(value = "/uploadFile",method = RequestMethod.POST)
     @ResponseBody
-    public CommonResult uploadImage(@RequestParam("file") MultipartFile file){
+    public CommonResult uploadFile(@RequestParam("file") MultipartFile file){
         try {
             //创建一个MinIO的Java客户端
             MinioClient minioClient = MinioClient
