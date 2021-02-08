@@ -21,6 +21,7 @@
         <module>module-common</module>
         <module>module-security</module>
         <module>module-pay</module>
+        <module>module-public</module>
     </modules>
 
     <properties>
