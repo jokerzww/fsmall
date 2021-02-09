@@ -4,76 +4,76 @@ import java.io.Serializable;
 import javax.annotation.Generated;
 
 public class Cart implements Serializable {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.id")
     private Integer id;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.mall_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.mall_id")
     private String mallId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.customer_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.customer_id")
     private String customerId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.item_id")
     private Integer itemId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.number")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.number")
     private Integer number;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source Table: cart")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5188846+08:00", comments="Source Table: cart")
     private static final long serialVersionUID = 1L;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.id")
     public Integer getId() {
         return id;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.id")
     public void setId(Integer id) {
         this.id = id;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.mall_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.mall_id")
     public String getMallId() {
         return mallId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.mall_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.mall_id")
     public void setMallId(String mallId) {
         this.mallId = mallId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.customer_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.customer_id")
     public String getCustomerId() {
         return customerId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.customer_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.customer_id")
     public void setCustomerId(String customerId) {
         this.customerId = customerId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.item_id")
     public Integer getItemId() {
         return itemId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5178839+08:00", comments="Source field: cart.item_id")
     public void setItemId(Integer itemId) {
         this.itemId = itemId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.number")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5188846+08:00", comments="Source field: cart.number")
     public Integer getNumber() {
         return number;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source field: cart.number")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5188846+08:00", comments="Source field: cart.number")
     public void setNumber(Integer number) {
         this.number = number;
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source Table: cart")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5188846+08:00", comments="Source Table: cart")
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(getClass().getSimpleName());
@@ -90,7 +90,7 @@ public class Cart implements Serializable {
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source Table: cart")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5188846+08:00", comments="Source Table: cart")
     public boolean equals(Object that) {
         if (this == that) {
             return true;
@@ -110,7 +110,7 @@ public class Cart implements Serializable {
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9320729+08:00", comments="Source Table: cart")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5188846+08:00", comments="Source Table: cart")
     public int hashCode() {
         final int prime = 31;
         int result = 1;

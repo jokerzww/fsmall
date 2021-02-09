@@ -7,22 +7,22 @@ import org.mybatis.dynamic.sql.SqlColumn;
 import org.mybatis.dynamic.sql.SqlTable;
 
 public final class ItemLabelDynamicSqlSupport {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source Table: item_label")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5308956+08:00", comments="Source Table: item_label")
     public static final ItemLabel itemLabel = new ItemLabel();
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.945086+08:00", comments="Source field: item_label.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5308956+08:00", comments="Source field: item_label.id")
     public static final SqlColumn<Integer> id = itemLabel.id;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.945086+08:00", comments="Source field: item_label.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5308956+08:00", comments="Source field: item_label.item_id")
     public static final SqlColumn<Integer> itemId = itemLabel.itemId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.945086+08:00", comments="Source field: item_label.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5308956+08:00", comments="Source field: item_label.name")
     public static final SqlColumn<String> name = itemLabel.name;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.945086+08:00", comments="Source field: item_label.price")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5308956+08:00", comments="Source field: item_label.price")
     public static final SqlColumn<BigDecimal> price = itemLabel.price;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.945086+08:00", comments="Source Table: item_label")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5308956+08:00", comments="Source Table: item_label")
     public static final class ItemLabel extends SqlTable {
         public final SqlColumn<Integer> id = column("id", JDBCType.INTEGER);
 

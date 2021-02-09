@@ -33,28 +33,28 @@ import org.mybatis.dynamic.sql.util.mybatis3.MyBatis3Utils;
 
 @Mapper
 public interface ItemClassMapper {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     BasicColumn[] selectList = BasicColumn.columnList(id, mallId, name, priority);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9260681+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.511878+08:00", comments="Source Table: item_class")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     long count(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9260681+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     @DeleteProvider(type=SqlProviderAdapter.class, method="delete")
     int delete(DeleteStatementProvider deleteStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9260681+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     @InsertProvider(type=SqlProviderAdapter.class, method="insert")
     @SelectKey(statement="SELECT LAST_INSERT_ID()", keyProperty="record.id", before=false, resultType=Integer.class)
     int insert(InsertStatementProvider<ItemClass> insertStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9260681+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     @ResultMap("ItemClassResult")
     Optional<ItemClass> selectOne(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9260681+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     @SelectProvider(type=SqlProviderAdapter.class, method="select")
     @Results(id="ItemClassResult", value = {
         @Result(column="id", property="id", jdbcType=JdbcType.INTEGER, id=true),
@@ -64,28 +64,28 @@ public interface ItemClassMapper {
     })
     List<ItemClass> selectMany(SelectStatementProvider selectStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     @UpdateProvider(type=SqlProviderAdapter.class, method="update")
     int update(UpdateStatementProvider updateStatement);
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     default long count(CountDSLCompleter completer) {
         return MyBatis3Utils.countFrom(this::count, itemClass, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     default int delete(DeleteDSLCompleter completer) {
         return MyBatis3Utils.deleteFrom(this::delete, itemClass, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     default int deleteByPrimaryKey(Integer id_) {
         return delete(c -> 
             c.where(id, isEqualTo(id_))
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     default int insert(ItemClass record) {
         return MyBatis3Utils.insert(this::insert, record, itemClass, c ->
             c.map(mallId).toProperty("mallId")
@@ -94,7 +94,7 @@ public interface ItemClassMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     default int insertSelective(ItemClass record) {
         return MyBatis3Utils.insert(this::insert, record, itemClass, c ->
             c.map(mallId).toPropertyWhenPresent("mallId", record::getMallId)
@@ -103,48 +103,48 @@ public interface ItemClassMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     default Optional<ItemClass> selectOne(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectOne(this::selectOne, selectList, itemClass, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5128786+08:00", comments="Source Table: item_class")
     default List<ItemClass> select(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectList(this::selectMany, selectList, itemClass, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5138796+08:00", comments="Source Table: item_class")
     default List<ItemClass> selectDistinct(SelectDSLCompleter completer) {
         return MyBatis3Utils.selectDistinct(this::selectMany, selectList, itemClass, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9270685+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5138796+08:00", comments="Source Table: item_class")
     default Optional<ItemClass> selectByPrimaryKey(Integer id_) {
         return selectOne(c ->
             c.where(id, isEqualTo(id_))
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9280692+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5138796+08:00", comments="Source Table: item_class")
     default int update(UpdateDSLCompleter completer) {
         return MyBatis3Utils.update(this::update, itemClass, completer);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9280692+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5138796+08:00", comments="Source Table: item_class")
     static UpdateDSL<UpdateModel> updateAllColumns(ItemClass record, UpdateDSL<UpdateModel> dsl) {
         return dsl.set(mallId).equalTo(record::getMallId)
                 .set(name).equalTo(record::getName)
                 .set(priority).equalTo(record::getPriority);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9280692+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5138796+08:00", comments="Source Table: item_class")
     static UpdateDSL<UpdateModel> updateSelectiveColumns(ItemClass record, UpdateDSL<UpdateModel> dsl) {
         return dsl.set(mallId).equalToWhenPresent(record::getMallId)
                 .set(name).equalToWhenPresent(record::getName)
                 .set(priority).equalToWhenPresent(record::getPriority);
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9280692+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5138796+08:00", comments="Source Table: item_class")
     default int updateByPrimaryKey(ItemClass record) {
         return update(c ->
             c.set(mallId).equalTo(record::getMallId)
@@ -154,7 +154,7 @@ public interface ItemClassMapper {
         );
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9280692+08:00", comments="Source Table: item_class")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5138796+08:00", comments="Source Table: item_class")
     default int updateByPrimaryKeySelective(ItemClass record) {
         return update(c ->
             c.set(mallId).equalToWhenPresent(record::getMallId)

@@ -29,9 +29,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="989611b9-7498-4479-b47d-6fcbf7c13f97" name="Default Changelist" comment="添加安全验证模块和支付模块">
+      <change afterPath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/controller/ImageUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/dto/ItemImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/dto/ItemImagesUpload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/service/ImageUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/service/impl/ImageUploadServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/controller/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/controller/ExampleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/service/impl/ExampleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-admin/src/main/java/com/fsteam/fsmall/admin/service/impl/ExampleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CartDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CartDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CustomerDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CustomerDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemClassDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemClassDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemClassMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemClassMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemLabelDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemLabelDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemLabelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemLabelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemListDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemListDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemListMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemListMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/ItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MallDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MallDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MallMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/MallMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OrderDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OrderDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PictureDynamicSqlSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PictureDynamicSqlSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PictureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/mapper/PictureMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemList.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/ItemList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Mall.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Mall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/java/com/fsteam/fsmall/model/Picture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-mbg/target/classes/Mybatis_Generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/target/classes/Mybatis_Generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/target/classes/com/fsteam/fsmall/mapper/PictureDynamicSqlSupport$Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/target/classes/com/fsteam/fsmall/mapper/PictureDynamicSqlSupport$Picture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/target/classes/com/fsteam/fsmall/mapper/PictureDynamicSqlSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/target/classes/com/fsteam/fsmall/mapper/PictureDynamicSqlSupport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/target/classes/com/fsteam/fsmall/mapper/PictureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/target/classes/com/fsteam/fsmall/mapper/PictureMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-mbg/target/classes/com/fsteam/fsmall/model/Picture.class" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/target/classes/com/fsteam/fsmall/model/Picture.class" afterDir="false" />
+    </list>
+    <list id="ea54b3d2-32f5-4d26-be0d-0e9c23e306ff" name="nothing" comment="">
+      <change beforePath="$PROJECT_DIR$/module-mbg/src/main/resources/Mybatis_Generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module-mbg/src/main/resources/Mybatis_Generator.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +89,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1njNTm2Qb8lT5XPSwJViIM29tLJ" />
@@ -68,7 +113,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall/mall-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/文档/WeChat Files/wxid_i3y97znu1ha321/FileStorage/File/2021-02/dynamicsql+druid/dynamicsql+druid/fsteam" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,6 +124,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunDashboard">
@@ -88,7 +134,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ModulePublicApplication">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fsteam.fsmall.Generator" />
       <module name="module-mbg" />
@@ -137,8 +183,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ModulePublicApplication" />
         <item itemvalue="Application.Generator" />
+        <item itemvalue="Spring Boot.ModulePublicApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +192,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="989611b9-7498-4479-b47d-6fcbf7c13f97" name="Default Changelist" comment="" />
+      <changelist id="ea54b3d2-32f5-4d26-be0d-0e9c23e306ff" name="nothing" comment="" />
       <created>1611899549980</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -157,6 +204,10 @@
       <workItem from="1612781174627" duration="429000" />
       <workItem from="1612781615788" duration="207000" />
       <workItem from="1612781833943" duration="385000" />
+      <workItem from="1612782467613" duration="192000" />
+      <workItem from="1612782671175" duration="1508000" />
+      <workItem from="1612838991802" duration="7950000" />
+      <workItem from="1612858763229" duration="11299000" />
     </task>
     <task id="LOCAL-00001" summary="MBG自动生成的文件">
       <created>1611900008338</created>
@@ -231,7 +282,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/admin-branch" />
                       </list>
                     </value>
                   </entry>
@@ -250,5 +301,9 @@
     <MESSAGE value="添加安全验证模块和支付模块" />
     <MESSAGE value="修复java的引用问题" />
     <option name="LAST_COMMIT_MESSAGE" value="修复java的引用问题" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
