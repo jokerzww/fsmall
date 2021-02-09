@@ -5,63 +5,63 @@ import java.math.BigDecimal;
 import javax.annotation.Generated;
 
 public class ItemLabel implements Serializable {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.id")
     private Integer id;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.item_id")
     private Integer itemId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.name")
     private String name;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.price")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.price")
     private BigDecimal price;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source Table: item_label")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source Table: item_label")
     private static final long serialVersionUID = 1L;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.id")
     public Integer getId() {
         return id;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.id")
     public void setId(Integer id) {
         this.id = id;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.item_id")
     public Integer getItemId() {
         return itemId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.item_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.item_id")
     public void setItemId(Integer itemId) {
         this.itemId = itemId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.name")
     public String getName() {
         return name;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.name")
     public void setName(String name) {
         this.name = name;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.price")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.price")
     public BigDecimal getPrice() {
         return price;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source field: item_label.price")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source field: item_label.price")
     public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source Table: item_label")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source Table: item_label")
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(getClass().getSimpleName());
@@ -77,7 +77,7 @@ public class ItemLabel implements Serializable {
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source Table: item_label")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source Table: item_label")
     public boolean equals(Object that) {
         if (this == that) {
             return true;
@@ -96,7 +96,7 @@ public class ItemLabel implements Serializable {
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.9440858+08:00", comments="Source Table: item_label")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.5298944+08:00", comments="Source Table: item_label")
     public int hashCode() {
         final int prime = 31;
         int result = 1;

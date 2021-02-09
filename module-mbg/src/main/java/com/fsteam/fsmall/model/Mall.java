@@ -4,102 +4,102 @@ import java.io.Serializable;
 import javax.annotation.Generated;
 
 public class Mall implements Serializable {
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8920362+08:00", comments="Source field: mall.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.467838+08:00", comments="Source field: mall.id")
     private String id;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4708411+08:00", comments="Source field: mall.name")
     private String name;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.description")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4708411+08:00", comments="Source field: mall.description")
     private String description;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.phone")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.phone")
     private String phone;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.address")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.address")
     private String address;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source field: mall.icon_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.icon_id")
     private Integer iconId;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source field: mall.status")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.status")
     private Integer status;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source Table: mall")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4728427+08:00", comments="Source Table: mall")
     private static final long serialVersionUID = 1L;
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8930369+08:00", comments="Source field: mall.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4698403+08:00", comments="Source field: mall.id")
     public String getId() {
         return id;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4708411+08:00", comments="Source field: mall.id")
     public void setId(String id) {
         this.id = id;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4708411+08:00", comments="Source field: mall.name")
     public String getName() {
         return name;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.name")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4708411+08:00", comments="Source field: mall.name")
     public void setName(String name) {
         this.name = name;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.description")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4708411+08:00", comments="Source field: mall.description")
     public String getDescription() {
         return description;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.description")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4708411+08:00", comments="Source field: mall.description")
     public void setDescription(String description) {
         this.description = description;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.phone")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.phone")
     public String getPhone() {
         return phone;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.phone")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.phone")
     public void setPhone(String phone) {
         this.phone = phone;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8940379+08:00", comments="Source field: mall.address")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.address")
     public String getAddress() {
         return address;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source field: mall.address")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.address")
     public void setAddress(String address) {
         this.address = address;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source field: mall.icon_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.icon_id")
     public Integer getIconId() {
         return iconId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source field: mall.icon_id")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.icon_id")
     public void setIconId(Integer iconId) {
         this.iconId = iconId;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source field: mall.status")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.status")
     public Integer getStatus() {
         return status;
     }
 
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source field: mall.status")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4718417+08:00", comments="Source field: mall.status")
     public void setStatus(Integer status) {
         this.status = status;
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source Table: mall")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4728427+08:00", comments="Source Table: mall")
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(getClass().getSimpleName());
@@ -118,7 +118,7 @@ public class Mall implements Serializable {
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8950387+08:00", comments="Source Table: mall")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4728427+08:00", comments="Source Table: mall")
     public boolean equals(Object that) {
         if (this == that) {
             return true;
@@ -140,7 +140,7 @@ public class Mall implements Serializable {
     }
 
     @Override
-    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-07T14:24:14.8960396+08:00", comments="Source Table: mall")
+    @Generated(value="org.mybatis.generator.api.MyBatisGenerator", date="2021-02-09T15:00:48.4758451+08:00", comments="Source Table: mall")
     public int hashCode() {
         final int prime = 31;
         int result = 1;

@@ -2,11 +2,13 @@ package com.fsteam.fsmall.admin.controller;
 
 import com.fsteam.fsmall.admin.dto.ExampleTest;
 import com.fsteam.fsmall.admin.service.ExampleService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/Example")
+@Api
 public class ExampleController {
 
     @Autowired

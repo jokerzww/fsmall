@@ -19,7 +19,7 @@ public class ExampleServiceImpl implements ExampleService {
 
     public String getMallName(String mallID){
 
-        //对应sql 为 select id where name=${mallID} 只选一个的
+        //对应sql 为 select name where id=${mallID} 只选一个的
         Optional<Mall> mall = mallMapper.selectOne(c ->
                 c.where(MallDynamicSqlSupport.id, isEqualTo(mallID))
         );
