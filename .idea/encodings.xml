@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/module-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module-pay/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module-security/src/main/java" charset="UTF-8" />
   </component>
 </project>

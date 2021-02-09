@@ -2,9 +2,10 @@
 <!DOCTYPE generatorConfiguration
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
 <generatorConfiguration>
-    <properties resource="Mybatis_Generator.properties"/>
-    <context id="MySql8Context">
+    <properties resource="jdbc.properties"/>
+    <context id="MySql8Context" targetRuntime="MyBatis3DynamicSql" defaultModelType="flat">
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
         <property name="javaFileEncoding" value="UTF-8"/>
@@ -39,8 +40,7 @@
 
         <javaModelGenerator targetPackage="com.fsteam.fsmall.model" targetProject="module-mbg\src\main\java"/>
         <sqlMapGenerator targetPackage="com.fsteam.fsmall.mapper" targetProject="module-mbg\src\main\resources"/>
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.fsteam.fsmall.mapper"
-                             targetProject="module-mbg\src\main\java"/>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.fsteam.fsmall.mapper" targetProject="module-mbg\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="%" schema="mall_db">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>

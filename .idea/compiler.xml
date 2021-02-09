@@ -13,14 +13,6 @@
         <module name="module-pay" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="fsmall" target="15" />
-      <module name="module-admin" target="15" />
-      <module name="module-common" target="15" />
-      <module name="module-mbg" target="15" />
-      <module name="module-pay" target="15" />
-      <module name="module-security" target="15" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
