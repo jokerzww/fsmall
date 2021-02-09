@@ -85,9 +85,9 @@ public class MallController {
             return new RespBody<>(null, HttpCode.SQL_ERROR, "查询出现了错误，请联系管理员");
         } else {
             if (itemDetailList.size() == 0) {
-                return new RespBody<>(itemDetailList, HttpCode.OK, "查询没有结果");
+                return new RespBody<>(itemDetailList, HttpCode.NO_RESULT, "查询没有结果");
             }
-            return new RespBody<>(itemDetailList, HttpCode.NO_RESULT, "查询成功");
+            return new RespBody<>(itemDetailList, HttpCode.OK, "查询成功");
         }
     }
 
