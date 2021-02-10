@@ -33,7 +33,6 @@ public class MallController {
 
     @PostMapping("/info")
     public RespBody<Integer> createMall(@RequestBody MallDetail mallDetail) {
-//        System.out.println(mallDetail);
         int rows = mallService.addMall(mallDetail);
         if (rows < 0) {
             return new RespBody<>(null, HttpCode.SQL_ERROR, "创建失败，请检查是否存在不合理字段");
@@ -63,7 +62,7 @@ public class MallController {
         }
     }
 
-    @GetMapping("/itemClass")
+    @GetMapping("/item_class")
     @ResponseBody
     public RespBody<List<ItemClass>> getItemClassList(@RequestParam("id") String id) {
         List<ItemClass> itemClassList = itemClassService.getAllItemClassByMallId(id);
@@ -77,7 +76,41 @@ public class MallController {
         }
     }
 
-    @GetMapping("/item")
+    @PostMapping("/item_class")
+    public RespBody<Integer> createItemClass(@RequestBody ItemClass itemClass) {
+        int rows = itemClassService.addItemClass(itemClass);
+        if (rows < 0) {
+            return new RespBody<>(null, HttpCode.SQL_ERROR, "创建失败，请检查是否存在不合理字段");
+        } else {
+            return new RespBody<>(rows, HttpCode.OK, "创建成功");
+        }
+    }
+
+    @PutMapping("/item_class")
+    public RespBody<Integer> deleteItemClass(@RequestBody ItemClass itemClass) {
+        int rows = itemClassService.updateItemClass(itemClass);
+        if (rows < 0) {
+            return new RespBody<>(null, HttpCode.SQL_ERROR, "更新失败，请检查是否存在不合理字段");
+        } else if (rows == 0){
+            return new RespBody<>(rows, HttpCode.FAIL, "没有记录被更新");
+        } else {
+            return new RespBody<>(rows, HttpCode.OK, "更新成功");
+        }
+    }
+
+    @DeleteMapping("/item_class")
+    public RespBody<Integer> deleteItemClass(@RequestParam("id") Integer id) {
+        int rows = itemClassService.deleteItemClass(id);
+        if (rows < 0) {
+            return new RespBody<>(null, HttpCode.SQL_ERROR, "删除失败，请检查是否存在不合理字段");
+        } else if (rows == 0){
+            return new RespBody<>(rows, HttpCode.FAIL, "没有记录被删除");
+        } else {
+            return new RespBody<>(rows, HttpCode.OK, "删除成功");
+        }
+    }
+
+    @GetMapping("/item/list")
     @ResponseBody
     public RespBody<List<ItemDetail>> getItemList(@RequestParam("id") Integer id) {
         List<ItemDetail> itemDetailList = itemService.getAllItemByItemClassId(id);
@@ -91,7 +124,46 @@ public class MallController {
         }
     }
 
+    @GetMapping("/item")
+    @ResponseBody
+    public RespBody<ItemDetail> getItemDetail(@RequestParam("id") Integer id) {
+        ItemDetail item = itemService.getItem(id);
+        if (item == null) {
+            return new RespBody<>(null, HttpCode.FAIL, "查询失败");
+        }
+        return new RespBody<>(item, HttpCode.OK, "查询成功");
+    }
 
+    @PostMapping("item")
+    public RespBody<Integer> createItem(@RequestBody ItemDetail itemDetail) {
+        int rows = itemService.addItem(itemDetail);
+        if (rows < 0) {
+            return new RespBody<>(null, HttpCode.FAIL, "创建失败，请检查是否有不合理字段");
+        }
+        return new RespBody<>(rows, HttpCode.OK, "创建成功");
+    }
 
+    @PutMapping("item")
+    public RespBody<Integer> updateItem(@RequestBody ItemDetail itemDetail) {
+        int rows = itemService.updateItem(itemDetail);
+        if (rows < 0) {
+            return new RespBody<>(null, HttpCode.FAIL, "更新失败，请检查是否有不合理字段");
+        }else if (rows == 0){
+            return new RespBody<>(rows, HttpCode.FAIL, "没有记录被更新");
+        } else {
+            return new RespBody<>(rows, HttpCode.OK, "更新成功");
+        }
+    }
 
+    @DeleteMapping("item")
+    public RespBody<Integer> deleteItem(@RequestParam("id") Integer id) {
+        int rows = itemService.deleteItem(id);
+        if (rows < 0) {
+            return new RespBody<>(null, HttpCode.SQL_ERROR, "删除失败，请联系管理员");
+        } else if (rows == 0) {
+            return new RespBody<>(rows, HttpCode.FAIL, "没有记录被删除");
+        }else {
+            return new RespBody<>(rows, HttpCode.OK, "创建成功");
+        }
+    }
 }
